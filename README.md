@@ -1,4 +1,4 @@
-Cost and Profitability Analysis of a Food Delivery System is a comprehensive evaluation aimed at understanding and optimizing the financial dynamics of a food delivery operation.
+# **Cost and Profitability Analysis of a Food Delivery System** is a comprehensive evaluation aimed at understanding and optimizing the financial dynamics of a food delivery operation.
 
 The aim is to identify areas where the service can reduce costs, increase revenue and implement pricing or commmission strategies that enhance profitability.
 
@@ -50,7 +50,7 @@ food_orders['Simulated Discount Amount'] = food_orders['Order Value'] * (recomme
 Visualize with **Seaborn**,
 [sns.kdeplot(food_orders['Profit'], label='Actual Profitability', fill=True, alpha=0.5, linewidth=2)
 
-# simulated profitability
+
 sns.kdeplot(food_orders['Simulated Profit'], label='Estimated Profitability with Recommended Rates', fill=True, alpha=0.5, linewidth=2)
 
 plt.title('Comparison of Profitability in Food Delivery: Actual vs. Recommended Discounts and Commissions')
